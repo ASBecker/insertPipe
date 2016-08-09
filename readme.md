@@ -12,7 +12,13 @@ Download the package and install with
 ``` r
 install.packages("DOWNLOAD_FOLDER/insertPipe", repos = NULL, type="source")
 ```
-Configure to shortcut of your choice in RStudio
+or alternatively directly
+``` r
+install.packages("devtools")
+library(devtools)
+install_github("ASBecker/insertPipe")
+```
+then map it to a shortcut in RStudio.
 
 ## Acknowledgements
 
