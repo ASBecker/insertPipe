@@ -1,28 +1,22 @@
 ## Synopsis
 
-Allows configuration of RStudio to insert the dplyr pipe (%>%) at the current cursor position
+Allows configuration of RStudio to insert the magrittr assignment pipe (%<>%) at the current cursor position
 
 ## Motivation
 
-The %>% pipe form the [dplyr](https://github.com/hadley/dplyr) package is a very useful tool to create human-readable and reproducible code. Configuring it to a keyboard shortcut saves me significant time during coding. I'm uploading it to GitHub in case anybody else finds it useful.
+The %<>% pipe form the [magrittr](https://github.com/tidyverse/magrittr) package is a very useful tool to create human-readable and reproducible code. Mapping it to a keyboard shortcut saves significant time during coding.
 
 ## Installation
 
-Download the package and install with
 ``` r
-install.packages("DOWNLOAD_FOLDER/insertPipe", repos = NULL, type="source")
+install.packages("remotes")
+remotes::install_github("ASBecker/insertPipe")
 ```
-or alternatively directly
-``` r
-install.packages("devtools")
-library(devtools)
-install_github("ASBecker/insertPipe")
-```
-then map it to a shortcut in RStudio.
+Then map the addin to a keyboard shortcut in RStudio.
 
 ## Acknowledgements
 
-Thanks to [Hadley Wickham](https://github.com/hadley) for his endless contributions to the R community
+Thanks to the magrittr developers and contributors
 
 ## License
 

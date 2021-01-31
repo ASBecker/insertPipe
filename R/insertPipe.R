@@ -1,4 +1,4 @@
 insertPipe <-
   function() {
-    rstudioapi::insertText(" %>% ")
+    rstudioapi::insertText(" %<>% ")
   }
