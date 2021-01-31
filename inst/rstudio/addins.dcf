@@ -1,4 +1,4 @@
-Name: Insert %>%
-Description: Inserts `%>%` at the cursor position.
+Name: Insert %<>%
+Description: Inserts `%<>%` at the cursor position.
 Binding: insertPipe
 Interactive: false
